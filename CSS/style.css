@@ -1,0 +1,25 @@
+.mydivs{
+    border: 2px solid blue;
+    margin: 5px;
+    padding: 10px;
+}
+div p{
+    color: rgb(19, 19, 12);
+}
+
+.mycube{
+    width: 50px;
+    height: 50px;
+    background-color:blueviolet ;
+    opacity: 0.4;
+    position: absolute;
+    padding: 20px;
+}
+.newdivclass{
+    border-radius:10px;
+    background-color: aqua;
+}
+.newparaclass{
+    font-weight: bold;
+    color: brown;
+}

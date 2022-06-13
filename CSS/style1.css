@@ -1,0 +1,12 @@
+#mydivs{
+    border: 2px solid rebeccapurple;
+    padding: 10px;
+}
+.cube{
+    width: 100px;
+    height: 100px;
+    background-color:orange;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+}

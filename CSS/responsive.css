@@ -1,0 +1,70 @@
+@media only screen and (max-width:1000px){
+    .home header .toggler{
+        display: block;
+    }
+    .home header nav{
+        background-color: #f1f1f1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0;
+        height: 100%;
+        width: 0;
+        overflow: hidden;
+        z-index: 1;
+        transition: .5s ease;
+    }
+    .home header nav ul{
+        display: block;
+        margin-top: 100px;
+    }
+    .home header nav ul i#cross{
+        position: absolute;
+        display: block;
+        top: 0;
+        right: 0;
+        z-index: 2;
+        margin: 40px 85px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .home header nav ul li{
+        display: block;
+        margin-top: 30px;
+    }
+    .home header nav ul li #bag{
+        font-size: 30px;
+    }
+    .home header nav ul li #account{
+        font-size: 30px;
+    }
+}
+/*//////////////////////*/
+@media only screen and (max-width:450px){
+    .home header #logo{
+        margin-left: 20px;
+    }
+    .home header #logo h1{
+        font-size: 32px;
+    }
+    .home .banner_text h1{
+        font-size: 30px;
+    }
+    /*Products*/
+    .product .product_cards .products{
+        width: 300px; 
+    }
+    .product .product_cards .products img{
+        width: 300px; 
+    }
+
+    /* //////////////// */
+    .contact footer .footerdivs a{
+        display: inline-block;
+        padding: 0 10px;
+    }
+    .contact footer .footerdivs i{
+        display: inline-block;
+        padding: 0 10px;
+    }
+}
